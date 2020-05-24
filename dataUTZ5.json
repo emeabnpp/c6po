@@ -1,0 +1,2299 @@
+{
+    "name": "SUBPROCESS",
+    "children": [
+        {
+            "name": "Alimentation BMRC",
+            "children": [
+                {
+                    "name": "Envoi des flux AD CHR (classe homogène risk) BDDF",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "SRS exploitation",
+                    "output": "",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "Envoi des flux AD RI (Risk indiv) BDDF",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "SRS exploitation",
+                    "output": "",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "Envoi des flux AD RI (Risk indiv) CIB",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "SRS exploitation",
+                    "output": "",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "Envoi des flux AD TIT (titres) BDDF & CIB",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "SRS exploitation",
+                    "output": "",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "Réception & Analyse des STOP1",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "",
+                    "output": "",
+                    "color": "#80C535"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CRED"
+                ]
+            ]
+        },
+        {
+            "name": "NCI",
+            "children": [
+                {
+                    "name": "Alimentation de la liasse NCI",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "",
+                    "output": "Liasses NCI",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "?",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "",
+                    "output": "Clés d'allocation",
+                    "color": "#80C535"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CRED"
+                ]
+            ]
+        },
+        {
+            "name": "Conso FINREP",
+            "children": [
+                {
+                    "name": "Contrôle REG Mutualisé",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "",
+                    "output": "REG MUT",
+                    "color": "#C3D69B"
+                },
+                {
+                    "name": "Contrôle FINREP",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "REG MUT",
+                    "output": "REG FINREP",
+                    "color": "#C3D69B"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        },
+        {
+            "name": "Data Control ",
+            "children": [
+                {
+                    "name": "Contrôle des stages",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Contrôle des Ratings & des Code Insolvabilité",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Contrôle des données du FINREP",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Contrôles des données IFRS 9 pour le reporting consolidé",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Contrôle des affectation PdC",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Contrôle de l'annulation des intérêts douteux via les autocomptables",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                }
+            ],
+            "team": [
+                [
+                    "RS - PROVISION"
+                ]
+            ]
+        },
+        {
+            "name": "Back Office SEC",
+            "children": [
+                {
+                    "name": "Comptabilisation des actions propres",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "Fichier actions propres à destination de la Gestion financière (J+3)",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Comptabilisation des TARV des sociétés transparentes",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Comptabilisation des prêts de TARV aux administrateurs",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Comptabilisation des nouvelles avances actionnaires et des intérêts",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Comptabilisation des opérations relatives aux succursales",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "Couverture résultat des succursales ;Surcouverture French",
+                    "color": "#4F81BD"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - SECURITIES"
+                ]
+            ]
+        },
+        {
+            "name": "Prov & Rééval",
+            "children": [
+                {
+                    "name": "Comptabilisation des provisions pour risques et charges relatives aux TARV",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "PRC (2)",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Comptabilisation des dépréciations de TARV en normes FRENCH",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "",
+                    "color": "#4F81BD"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - SECURITIES"
+                ]
+            ]
+        },
+        {
+            "name": "Ajustements BMRC",
+            "children": [
+                {
+                    "name": "Préparation & contrôle des XLLoaders",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "",
+                    "output": "",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "Préparation & contrôle des Alertes & retraitements CDB",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "",
+                    "output": "",
+                    "color": "#80C535"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CRED"
+                ]
+            ]
+        },
+        {
+            "name": "Note de Netting IFRS7",
+            "children": [
+                {
+                    "name": "Note IFRS 7",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "L1i/L1iHB (15)",
+                    "output": "",
+                    "color": "#C3D69B",
+                    "children": [
+                        {
+                            "name": "Contrôle et mise à jour des tables OFS",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "",
+                            "output": "L1i/L1iHB (15)",
+                            "color": "#C3D69B"
+                        }
+                    ]
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        },
+        {
+            "name": "Contrôle interne",
+            "children": [
+                {
+                    "name": "Rapprochement matière",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "",
+                    "color": "#4F81BD"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - SECURITIES"
+                ]
+            ]
+        },
+        {
+            "name": "VINCI",
+            "children": [
+                {
+                    "name": "Constituer une synthèse pour le pôle VINCI (FGD-FGI-PPI) (SG - FG)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "Tableau de synthèse",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Intégrer les flux Vinci DP (SG-FG)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "Alimentation VINCI",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Intégrer les flux Vinci Effectif (SG-FG)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "Alimentation VINCI",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Intégrer les flux Vinci FG y compris DAT (SG-FG)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "Alimentation VINCI",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Saisir des compléments analytiques pour ajustements de main courantes sur périmètre VINCI (SG - FG)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "Fichiers d'ajustements",
+                    "output": "Tableau de synthèse",
+                    "color": "#95B3D7"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - MC"
+                ]
+            ]
+        },
+        {
+            "name": "Completion",
+            "children": [
+                {
+                    "name": "Cadrage de la borne comptable",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "",
+                    "output": "",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "Cadrage de la borne risk",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "",
+                    "output": "",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "Mesure et restitution des déformations entre bornes comptable et risk",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "",
+                    "output": "Contribution tableau de synthèse prudentiel Métro",
+                    "color": "#80C535"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CRED"
+                ]
+            ]
+        },
+        {
+            "name": "Back Office TAX",
+            "children": [
+                {
+                    "name": "Reporting des impôts courants & différés",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "Rationalisation de l'impôt",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Paiement ou réception des flux de cash",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "Sortie ou remboursement de cash",
+                    "color": "#1F497D"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - TAX"
+                ]
+            ]
+        },
+        {
+            "name": "Compta TAX",
+            "children": [
+                {
+                    "name": "CIPTZ : comptabilisation et justifcations des écritures",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "OptimIS : calcul IS ",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Engagements sociaux IAS19R : comptabilisation de l'ID sur OCI",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "Liasse conso",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Impôt transféré en réserves : prime d'émission TSSDI",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "Requêtes de contrôle intérêts = 0 et PdC (9)",
+                    "output": "Liasse conso",
+                    "color": "#1F497D",
+                    "children": [
+                        {
+                            "name": "Contrôle et comptabilisation des écritures sur les TSSDI",
+                            "size": 50,
+                            "team": "BLR - CMA",
+                            "input": "Mail :  Tableau répartition des fees part externe/interne / Termsheet",
+                            "output": "Requêtes de contrôle intérêts = 0 et PdC (9)",
+                            "color": "#FF9900"
+                        }
+                    ]
+                },
+                {
+                    "name": "Impôt transféré en réserves : OCA",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "Requêtes de contrôle de cohérence avec la synthèse Finance ALMT (\" Synthèse XVA \") (10)",
+                    "output": "Liasse conso",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Retraitement fiscaux PRC, provisions sur créances",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "PRC (2);fichiers fiscaux (3)",
+                    "output": "OptimIS : calcul IS ",
+                    "color": "#1F497D",
+                    "children": [
+                        {
+                            "name": "Analyse fiscale des titres",
+                            "size": 50,
+                            "team": "CTS - SECURITIES",
+                            "input": "",
+                            "output": "Fichiers fiscaux (3)",
+                            "color": "#4F81BD"
+                        }
+                    ]
+                },
+                {
+                    "name": "Retraitement fiscaux sur titres à revenus variables (dividendes, frais d'acquisitions)",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "Fichiers fiscaux (3)",
+                    "output": "OptimIS : calcul IS ",
+                    "color": "#1F497D",
+                    "children": [
+                        {
+                            "name": "Analyse fiscale des titres",
+                            "size": 50,
+                            "team": "CTS - SECURITIES",
+                            "input": "",
+                            "output": "Fichiers fiscaux (3)",
+                            "color": "#4F81BD"
+                        }
+                    ]
+                },
+                {
+                    "name": "Retraitement fiscaux sur titres à revenus variables cessions",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "Fichiers fiscaux (3)",
+                    "output": "OptimIS : calcul IS ",
+                    "color": "#1F497D",
+                    "children": [
+                        {
+                            "name": "Analyse fiscale des titres",
+                            "size": 50,
+                            "team": "CTS - SECURITIES",
+                            "input": "",
+                            "output": "Fichiers fiscaux (3)",
+                            "color": "#4F81BD"
+                        }
+                    ]
+                },
+                {
+                    "name": "Retraitement fiscaux sur titres à revenus variables PRC fiscales et sur titres immobilisés",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "PRC (2); fichiers fiscaux (3)",
+                    "output": "OptimIS : calcul IS ",
+                    "color": "#1F497D",
+                    "children": [
+                        {
+                            "name": "Analyse fiscale des titres",
+                            "size": 50,
+                            "team": "CTS - SECURITIES",
+                            "input": "",
+                            "output": "Fichiers fiscaux (3)",
+                            "color": "#4F81BD"
+                        }
+                    ]
+                },
+                {
+                    "name": "Retraitement fiscaux sur titres à revenus variables autres",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "Fichiers fiscaux (3)",
+                    "output": "OptimIS : calcul IS ",
+                    "color": "#1F497D",
+                    "children": [
+                        {
+                            "name": "Analyse fiscale des titres",
+                            "size": 50,
+                            "team": "CTS - SECURITIES",
+                            "input": "",
+                            "output": "Fichiers fiscaux (3)",
+                            "color": "#4F81BD"
+                        }
+                    ]
+                },
+                {
+                    "name": "Retraitement fiscaux sur les dépenses de personnel",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "Fichiers fiscaux (3)",
+                    "output": "OptimIS : calcul IS ",
+                    "color": "#1F497D",
+                    "children": [
+                        {
+                            "name": "Analyse fiscale des titres",
+                            "size": 50,
+                            "team": "CTS - SECURITIES",
+                            "input": "",
+                            "output": "Fichiers fiscaux (3)",
+                            "color": "#4F81BD"
+                        }
+                    ]
+                },
+                {
+                    "name": "Retraitement fiscaux sur les frais généraux & amortissements",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "Fichiers fiscaux (3)",
+                    "output": "OptimIS : calcul IS ",
+                    "color": "#1F497D",
+                    "children": [
+                        {
+                            "name": "Analyse fiscale des titres",
+                            "size": 50,
+                            "team": "CTS - SECURITIES",
+                            "input": "",
+                            "output": "Fichiers fiscaux (3)",
+                            "color": "#4F81BD"
+                        }
+                    ]
+                },
+                {
+                    "name": "Retraitement fiscaux sur les PRC frais de gestion",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "PRC (2)",
+                    "output": "OptimIS : calcul IS ",
+                    "color": "#1F497D",
+                    "children": [
+                        {
+                            "name": "Comptabilisation des provisions pour risques et charges relatives aux TARV",
+                            "size": 50,
+                            "team": "CTS - SECURITIES",
+                            "input": "",
+                            "output": "PRC (2)",
+                            "color": "#4F81BD"
+                        }
+                    ]
+                },
+                {
+                    "name": "Réevaluation TARV : comptabilisation de l'ID sur PNL & OCI",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "Fichiers fiscaux (3)",
+                    "output": "Liasse conso",
+                    "color": "#1F497D",
+                    "children": [
+                        {
+                            "name": "Analyse fiscale des titres",
+                            "size": 50,
+                            "team": "CTS - SECURITIES",
+                            "input": "",
+                            "output": "Fichiers fiscaux (3)",
+                            "color": "#4F81BD"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cadrage du fichier de Créances Etat ALL au début de l'arrêté",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Eco du groupe J+11",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "Economie du groupe",
+                    "output": "Liasse conso",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Cadrage du fichier de Créances Etat ALL en fin d'arrêté",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Pré Main-courante J+10",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "pré MC",
+                    "output": "OptimIS : calcul IS ",
+                    "color": "#1F497D"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - TAX"
+                ]
+            ]
+        },
+        {
+            "name": "Fiscalité SEC",
+            "children": [
+                {
+                    "name": "Analyse fiscale des titres",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "Fichiers fiscaux (3)",
+                    "color": "#4F81BD"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - SECURITIES"
+                ]
+            ]
+        },
+        {
+            "name": "Annexes Titres",
+            "children": [
+                {
+                    "name": "Production des annexes Titres (FVOCI, FVPL, AC)",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "L1i/L1iHB (15)",
+                    "output": "Annexes titres (12)",
+                    "color": "#C3D69B",
+                    "children": [
+                        {
+                            "name": "Contrôle et mise à jour des tables OFS",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "",
+                            "output": "L1i/L1iHB (15)",
+                            "color": "#C3D69B"
+                        }
+                    ]
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        },
+        {
+            "name": "I - A",
+            "children": [
+                {
+                    "name": "Matisse REI",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "REG MUT",
+                    "output": "Institute - Aggregate",
+                    "color": "#C3D69B"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        },
+        {
+            "name": "Saisie & Aju",
+            "children": [
+                {
+                    "name": "Comptabilisation & ajustements des activités de Marché",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "Ajustements MO;Réconciliations compta/gestion par produits",
+                    "output": "Synthèse ER (8);NdS ICC",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Correction analytique des résultats de gestion par métier",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": " ",
+                    "output": "Chargement Paradigm",
+                    "color": "#FF9900"
+                }
+            ],
+            "team": [
+                [
+                    "BLR - CMA"
+                ]
+            ]
+        },
+        {
+            "name": "Fiscalité FG",
+            "children": [
+                {
+                    "name": "Communiquer traitements fiscaux spécifiques des fr. de gestion (RD - Fr. Gestion)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "Fichiers fiscaux (3); PRC (2)",
+                    "color": "#95B3D7"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - MC"
+                ]
+            ]
+        },
+        {
+            "name": "Descente PnL",
+            "children": [
+                {
+                    "name": "Descente PnL par indice de gestion par rapport aux indices de restitutions",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "",
+                    "output": "Résultat Metro IAS (BAC-SAR) (Descente par indices) (16)",
+                    "color": "#C3D69B"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        },
+        {
+            "name": "Contrôle de l'assiette",
+            "children": [
+                {
+                    "name": "Contrôle du plan de comptes Risk",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "Plan de compte matisse;agrégats RCR; Correction AD",
+                    "output": "",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "Contrôle des données tiers",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "Restitution des états de contrôles RODIN",
+                    "output": "",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "Contrôles des données communes",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "Comet",
+                    "output": "",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "Contrôles des données Risk",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "Restitution des états de contrôles RODIN",
+                    "output": "",
+                    "color": "#80C535"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CRED"
+                ]
+            ]
+        },
+        {
+            "name": "CAC",
+            "children": [
+                {
+                    "name": "Préparation, contrôle et envoi des balances CAC",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "",
+                    "output": "",
+                    "color": "#C3D69B"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        },
+        {
+            "name": "Dette ALMT",
+            "children": [
+                {
+                    "name": "Réconciliation de la dette ALMT",
+                    "size": 50,
+                    "team": "RS - LIQUIDITY",
+                    "input": "",
+                    "output": "Ecart dette ALMT",
+                    "color": "#00B050"
+                }
+            ],
+            "team": [
+                [
+                    "RS - LIQUIDITY"
+                ]
+            ]
+        },
+        {
+            "name": "Filière compta",
+            "children": [
+                {
+                    "name": "Contrôle des deals internes",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "Synthèse des écarts sur deals analytiques (14)",
+                    "output": "",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Contrôle et comptabilisation des écritures sur les TSSDI",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "Mail :  Tableau répartition des fees part externe/interne / Termsheet",
+                    "output": "Requêtes de contrôle intérêts = 0 et PdC (9)",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Contrôle et comptabilisation de l'OCA",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "Fichier de Synthèse Spread JJ MM AAAA; Mail montant de rachats (Middle-Office ALMT)",
+                    "output": "Requêtes de contrôle de cohérence avec la synthèse Finance ALMT (\" Synthèse XVA \") (10)",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Contrôle des Levels",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": " ",
+                    "output": "",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Disclosure Hedge IFRS 9",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "Piste d'audit Liasse Matisse (6) ; Requête RA couvertures (13)",
+                    "output": "Mapping Références Analytiques (13);Fichiers préparatoires Liasse Matisse (15)",
+                    "color": "#FF9900",
+                    "children": [
+                        {
+                            "name": "Disclosure Couverture",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "Piste d'audit",
+                            "output": "Disclosure Couverture (13)",
+                            "color": "#C3D69B"
+                        }
+                    ]
+                }
+            ],
+            "team": [
+                [
+                    "BLR - CMA"
+                ]
+            ]
+        },
+        {
+            "name": "Rappro TAX",
+            "children": [
+                {
+                    "name": "Rapprochement du bilan Impôts avec la descente fiscale V1",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Rapprochement du bilan Impôts avec la descente fiscale V2",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "",
+                    "color": "#1F497D"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - TAX"
+                ]
+            ]
+        },
+        {
+            "name": "Bilan",
+            "children": [
+                {
+                    "name": "Ventilation du bilan par axe métier",
+                    "size": 50,
+                    "team": "RS - LIQUIDITY",
+                    "input": "L1i/L1iHB (15)",
+                    "output": "Bilan par pôle",
+                    "color": "#00B050",
+                    "children": [
+                        {
+                            "name": "Contrôle et mise à jour des tables OFS",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "",
+                            "output": "L1i/L1iHB (15)",
+                            "color": "#C3D69B"
+                        }
+                    ]
+                }
+            ],
+            "team": [
+                [
+                    "RS - LIQUIDITY"
+                ]
+            ]
+        },
+        {
+            "name": "Déformation SRS",
+            "children": [
+                {
+                    "name": "Analyse, mesure et restitution des déformations SRS",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "",
+                    "output": "Contribution tableau de synthèse prudentiel Métro",
+                    "color": "#80C535"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CRED"
+                ]
+            ]
+        },
+        {
+            "name": "Back Office TVA",
+            "children": [
+                {
+                    "name": "Déterminer le coefficient de déduction de TVA",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "Prorata TVA",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Vérifier la régularisation du coefficient de déduction",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "Prorata TVA",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Reporting DES",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "DES",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Reporting DEB",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "DEB",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Déclarer et payer la TVA",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "Prorata TVA",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Reporting de la TVA à payer/recevoir",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "Déclaration TVA",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Reporting 2777",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "2777",
+                    "color": "#1F497D"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - TAX"
+                ]
+            ]
+        },
+        {
+            "name": "Comptes Conso",
+            "children": [
+                {
+                    "name": "Liasse anticipée des capitaux propres et des titres consolidés",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "Requêtes de contrôle intérêts = 0 et PdC (9)",
+                    "output": "TSSDI;Suivi du capital",
+                    "color": "#4F81BD",
+                    "children": [
+                        {
+                            "name": "Contrôle et comptabilisation des écritures sur les TSSDI",
+                            "size": 50,
+                            "team": "BLR - CMA",
+                            "input": "Mail :  Tableau répartition des fees part externe/interne / Termsheet",
+                            "output": "Requêtes de contrôle intérêts = 0 et PdC (9)",
+                            "color": "#FF9900"
+                        }
+                    ]
+                },
+                {
+                    "name": "Liasse L1I TARV",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "L1F/L2F",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Liasse L1F",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "L1F/L2F",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Liasse BMT",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "L1F/L2F;Fichier sur les titres",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Protide",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Revue analytique des titres MFVPL et FVOCIE + Cadrage MFVPL et FVOCIE",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Alimentation des cahiers Impôts en normes IAS",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "Cahier impôt",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Cahiers matisse PRC & Provisions en norme IAS",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Axes d'analyse IAS",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - SECURITIES",
+                    "CTS - TAX",
+                    "RS - PROVISION"
+                ]
+            ]
+        },
+        {
+            "name": "Liasse Fiscale",
+            "children": [
+                {
+                    "name": "Reporting des crédits d'imports hors Métropole",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "Liasse Fiscale",
+                    "color": "#1F497D"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - TAX"
+                ]
+            ]
+        },
+        {
+            "name": "POCH & DAV",
+            "children": [
+                {
+                    "name": "Comptabilisation des autres TARV",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "Fichiers DAV (9)",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Comptabilisation des réévéluations de TARV en normes IAS",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "Fichiers DAV (9)",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Calcul des DAV",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "Fichiers DAV (9)",
+                    "color": "#006666"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - SECURITIES",
+                    "RS - PROVISION"
+                ]
+            ]
+        },
+        {
+            "name": "Comptes Sociaux",
+            "children": [
+                {
+                    "name": "Fiabilisation des liasses L1F & L2F (Bilan HBilan & Résultats)",
+                    "size": 50,
+                    "team": "RS - FRENCH",
+                    "input": "PdC;Tables Netting;Tables Reclassement",
+                    "output": "L1F/L2F;Annexes",
+                    "color": "#27774F"
+                },
+                {
+                    "name": "Alimentation des liasses L1F & L2F  (Bilan HBilan & Résultats)",
+                    "size": 50,
+                    "team": "RS - FRENCH",
+                    "input": "PdC;Tables Netting;Tables Reclassement",
+                    "output": "L1F/L2F;Annexes",
+                    "color": "#27774F"
+                },
+                {
+                    "name": "Comptabilisation des titres à valeur de marché",
+                    "size": 50,
+                    "team": "RS - FRENCH",
+                    "input": "Synthèse ER (8)",
+                    "output": "",
+                    "color": "#27774F"
+                },
+                {
+                    "name": "Reporting de l'affectation et des comptes de résultats en normes FRENCH",
+                    "size": 50,
+                    "team": "RS - FRENCH",
+                    "input": "",
+                    "output": "RESU_REPA;RESU_PUBL",
+                    "color": "#27774F"
+                },
+                {
+                    "name": "Cahier Matisse PRC & créances en normes French",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Axes d'analyses French",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                }
+            ],
+            "team": [
+                [
+                    "RS - FRENCH",
+                    "RS - PROVISION"
+                ]
+            ]
+        },
+        {
+            "name": "Risk POCH",
+            "children": [
+                {
+                    "name": "Synthèse sur la POCH",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "",
+                    "output": "",
+                    "color": "#80C535"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CRED"
+                ]
+            ]
+        },
+        {
+            "name": "Grilles Liquidité",
+            "children": [
+                {
+                    "name": "Production des grilles du Lot1 & spécifiques V1",
+                    "size": 50,
+                    "team": "RS - LIQUIDITY",
+                    "input": "Instructions;Feeding Principles;HRO;DPL;Dette structurée GM",
+                    "output": "G3;G3IG;G3 Complémentaires;G9;G10",
+                    "color": "#00B050"
+                },
+                {
+                    "name": "Production des grilles du Lot1 & spécifiques V2",
+                    "size": 50,
+                    "team": "RS - LIQUIDITY",
+                    "input": "Instructions;Feeding Principles;HRO;DPL;Dette structurée GM",
+                    "output": "G3;G3IG;G3 Complémentaires;G9;G10",
+                    "color": "#00B050"
+                },
+                {
+                    "name": "Production des grilles du Lot1 & spécifiques VDEF",
+                    "size": 50,
+                    "team": "RS - LIQUIDITY",
+                    "input": "Instructions;Feeding Principles;HRO;DPL;Dette structurée GM",
+                    "output": "G3;G3IG;G3 Complémentaires;G9;G10",
+                    "color": "#00B050"
+                }
+            ],
+            "team": [
+                [
+                    "RS - LIQUIDITY"
+                ]
+            ]
+        },
+        {
+            "name": "compta FG",
+            "children": [
+                {
+                    "name": "Calculer et comptabiliser les montants à recevoir",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Comptabiliser dans BAC les opérations manquantes (FG - FG)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "Fichiers d'ajustements",
+                    "output": "",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Comptabiliser ds BAC opé manquantes-non comptabilisables ds SAP (FG - Immos)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Comptabiliser et ajuster les autres Dépenses de Personnel (FG - DP)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "IBEN + Demandes d'ajustements;Cartographie SMC",
+                    "output": "",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Comptabiliser et ajuster les Bonus (FG - DP)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "DAM",
+                    "output": "",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Comptabiliser les provisions de Transfer Pricing (TP)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "Fichiers excels",
+                    "output": "",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Fiabiliser et analyser les DP (FG - DP)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Fiabiliser les flux de gestion DAT (SG-FG)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "Alimentation VINCI",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Fiabiliser les flux de gestion DP (SG-FG)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "Tableau de synthèse",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Fiabiliser les flux de gestion FG (SG-FG)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "Tableau de synthèse",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Réallouer les dépenses sans affectation (SG - FG)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "Tableau de synthèse",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Restructurer l'architecture des systèmes (SG - FG)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Saisir correctifs, compléments et déterminer les FDG vision allouée (SG - FG)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "Fichiers d'ajustements",
+                    "output": "Tableau de synthèse",
+                    "color": "#95B3D7"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - MC"
+                ]
+            ]
+        },
+        {
+            "name": "Rappro LIQ",
+            "children": [
+                {
+                    "name": "Analyse des écarts IG",
+                    "size": 50,
+                    "team": "RS - LIQUIDITY",
+                    "input": "KLIMT;MSR",
+                    "output": "Ecarts IG",
+                    "color": "#00B050"
+                },
+                {
+                    "name": "Réconciliation Klimt to MSR du Lot1 de la Métropole ",
+                    "size": 50,
+                    "team": "RS - LIQUIDITY",
+                    "input": "KLIMT;MSR;Ecritures Top Conso",
+                    "output": "Ecarts KLIMT/MSR",
+                    "color": "#00B050"
+                }
+            ],
+            "team": [
+                [
+                    "RS - LIQUIDITY"
+                ]
+            ]
+        },
+        {
+            "name": "Back Office PROV",
+            "children": [
+                {
+                    "name": "Contrôles des mouvements des PRC pour le suivi fiscal",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "PRC fiscale (1)",
+                    "output": "Descente fiscale",
+                    "color": "#1F497D"
+                },
+                {
+                    "name": "Comptabilisation des PRC",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "PRC fiscales (1)",
+                    "output": "PRC (2)",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Comptabilisation de la CVI",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "CVI",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Comptabilisation de la Provision Risques Pays dans la BMRC",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "Risque pays",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Comptabilisation de la Provision sur encours sains dans le SRS (stage 1 & 2)",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "Coûts du risque par métier;taux de couverture",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Comptabilisation de la Provision sur encours douteux dans MIRO (stage3)",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "Coûts du risque par métier;taux de couverture;Note MIRO",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Synthèse des écritures manuelles & cadrage avec la comptabilité",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - TAX",
+                    "RS - PROVISION"
+                ]
+            ]
+        },
+        {
+            "name": "Reporting interne",
+            "children": [
+                {
+                    "name": "Alimentation du dossier titres",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "DT",
+                    "color": "#4F81BD"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - SECURITIES"
+                ]
+            ]
+        },
+        {
+            "name": "Comité SEC",
+            "children": [
+                {
+                    "name": "Comité titres Valuation Control",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "NCE",
+                    "output": "Comité titres présentée en séance",
+                    "color": "#4F81BD"
+                },
+                {
+                    "name": "Contrôle des valorisations",
+                    "size": 50,
+                    "team": "CTS - SECURITIES",
+                    "input": "",
+                    "output": "",
+                    "color": "#4F81BD"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - SECURITIES"
+                ]
+            ]
+        },
+        {
+            "name": "Disclosure Couverture",
+            "children": [
+                {
+                    "name": "Disclosure Couverture",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "Piste d'audit",
+                    "output": "Disclosure Couverture (13)",
+                    "color": "#C3D69B"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        },
+        {
+            "name": "Etats REG",
+            "children": [
+                {
+                    "name": "Reporting des états statistiques pour la BCE",
+                    "size": 50,
+                    "team": "RS - FRENCH",
+                    "input": "",
+                    "output": "Etats BCE",
+                    "color": "#27774F"
+                },
+                {
+                    "name": "Reporting des états Protide",
+                    "size": 50,
+                    "team": "RS - FRENCH",
+                    "input": "Annexes IAS",
+                    "output": "Protide",
+                    "color": "#27774F"
+                },
+                {
+                    "name": "Reporting des états SURFI toutes zones",
+                    "size": 50,
+                    "team": "RS - FRENCH",
+                    "input": "L1F/L2F;Annexes",
+                    "output": "SURFI",
+                    "color": "#27774F"
+                },
+                {
+                    "name": "Reporting des états SURFI Bilan & Annexes",
+                    "size": 50,
+                    "team": "RS - FRENCH",
+                    "input": "L1F/L2F;Annexes",
+                    "output": "SURFI",
+                    "color": "#27774F"
+                },
+                {
+                    "name": "Reporting des états risque pour la Banque de France",
+                    "size": 50,
+                    "team": "RS - FRENCH",
+                    "input": "",
+                    "output": "Etats Risques BdF",
+                    "color": "#27774F"
+                },
+                {
+                    "name": "Reporting du reporting Anacrédit",
+                    "size": 50,
+                    "team": "RS - FRENCH",
+                    "input": "Centralisation des Risques",
+                    "output": "Anacrédit",
+                    "color": "#27774F"
+                },
+                {
+                    "name": "Reporting de la balance des paiements",
+                    "size": 50,
+                    "team": "RS - FRENCH",
+                    "input": "",
+                    "output": "Balance des paiements",
+                    "color": "#27774F"
+                }
+            ],
+            "team": [
+                [
+                    "RS - FRENCH"
+                ]
+            ]
+        },
+        {
+            "name": "FINREP",
+            "children": [
+                {
+                    "name": "Reporting des impayés et des past dues",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                },
+                {
+                    "name": "Reporting des Performing & restructuré",
+                    "size": 50,
+                    "team": "RS - PROVISION",
+                    "input": "",
+                    "output": "",
+                    "color": "#006666"
+                }
+            ],
+            "team": [
+                [
+                    "RS - PROVISION"
+                ]
+            ]
+        },
+        {
+            "name": "Comptes Conso IFRS",
+            "children": [
+                {
+                    "name": "Contrôle et mise à jour des tables OFS",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "",
+                    "output": "L1i/L1iHB (15)",
+                    "color": "#C3D69B"
+                },
+                {
+                    "name": "Contrôle Matisse L1I / L1IHB et contrôle d'équilibre et de flux",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "",
+                    "output": "L1i/L1iHB (15)",
+                    "color": "#C3D69B"
+                },
+                {
+                    "name": "Rapprochement FALCON",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "FALCON",
+                    "output": "Cadrage OFS/FALCON",
+                    "color": "#C3D69B"
+                },
+                {
+                    "name": "Deals Analytiques ",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "",
+                    "output": "L1i/L1iHB (15);Synthèse des écarts sur deals analytiques (14)",
+                    "color": "#C3D69B"
+                },
+                {
+                    "name": "Revue Analytique Bilan",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "L1i/L1iHB (15)",
+                    "output": "RA (13)",
+                    "color": "#C3D69B",
+                    "children": [
+                        {
+                            "name": "Contrôle et mise à jour des tables OFS",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "",
+                            "output": "L1i/L1iHB (15)",
+                            "color": "#C3D69B"
+                        }
+                    ]
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        },
+        {
+            "name": "Filière gestion",
+            "children": [
+                {
+                    "name": "Rappro P&L Economique Vs Comptable",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "SBCM (4);Fichiers de P&L Officiel des MO (Result)",
+                    "output": "Matrices (11);NdS CMA;NdS ICC & ITO (8) (P&L Rec, FX Rec, Synthèse ER)",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Chargement PARADIGM GM",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "Ajustements MO;Réconciliations compta/gestion par produits;Flash Securities (5)",
+                    "output": "Chargement PARADIGM",
+                    "color": "#FF9900",
+                    "children": [
+                        {
+                            "name": "Flashs métiers Financement (Flash Data)",
+                            "size": 50,
+                            "team": "BLR - MR",
+                            "input": "",
+                            "output": "Chargement PARADIGM en Flash data (5)",
+                            "color": "#FFD13F"
+                        }
+                    ]
+                },
+                {
+                    "name": "Validation des Capitaux Propres",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "Fichiers de CPR Officiels du MO ALMT ; Nds CPR ALMT HO ; Fichier de Valeurs au bilan ALMT HO",
+                    "output": "Rapprochement des CPR",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Validation des ajustements Risks",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "Fichiers des ajustements Risks Officiels (Single Tool pour GM ; Reserves & MAP Review pour ALMT)",
+                    "output": "Rapprochement des MAP et Réserves",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Fiabilisation PNB & COR",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": " ",
+                    "output": "NdS GCC;Synthèses COR par Métiers (NdS ICC) ",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Contrôle des provisions French (TARF et POI)",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "Contrôle des provisions sur TARF",
+                    "output": "Synthèse Provisions sur Options POI;Requêtes de contrôle des provisions sur TARF",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Fiabilisation des CIP RH",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "Fichier Valo swaps BFI",
+                    "output": "Synthèses CIP RH PNB;Synthèses CIP RH FDG",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Fiabilisation des JV annexes",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "Piste d'audit Liasse Matisse (6);Fichier Must Cadrage JV Annexe (12)",
+                    "output": "Synthèse JV en Annexes (12)",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Fiabilisation des Positions de change (POCH) & DAV",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": "Fichiers DAV (9)",
+                    "output": "DAV Reporting (9); NdS ICC",
+                    "color": "#FF9900",
+                    "children": [
+                        {
+                            "name": "Contrôle et comptabilisation des écritures sur les TSSDI",
+                            "size": 50,
+                            "team": "BLR - CMA",
+                            "input": "Mail :  Tableau répartition des fees part externe/interne / Termsheet",
+                            "output": "Requêtes de contrôle intérêts = 0 et PdC (9)",
+                            "color": "#FF9900"
+                        }
+                    ]
+                },
+                {
+                    "name": "Contrôle documentation Hedge Accounting",
+                    "size": 50,
+                    "team": "BLR - CMA",
+                    "input": " ",
+                    "output": "NdS Hedge Accounting",
+                    "color": "#FF9900"
+                },
+                {
+                    "name": "Flashs métiers Financement (Flash Data)",
+                    "size": 50,
+                    "team": "BLR - MR",
+                    "input": "",
+                    "output": "Chargement PARADIGM en Flash data (5)",
+                    "color": "#FFD13F"
+                },
+                {
+                    "name": "Flashs métiers Financement (Actual Data)",
+                    "size": 50,
+                    "team": "BLR - MR",
+                    "input": "",
+                    "output": "Chargement PARADIGM en Actual data;Chargement PARADIGM Other CIB",
+                    "color": "#FFD13F"
+                },
+                {
+                    "name": "Flash BDDF",
+                    "size": 50,
+                    "team": "BLR - MR",
+                    "input": "",
+                    "output": "Check E finance",
+                    "color": "#FFD13F"
+                },
+                {
+                    "name": "Autres Flashs",
+                    "size": 50,
+                    "team": "BLR - MR",
+                    "input": "",
+                    "output": "Synthèses GCC et Other CIB définitives",
+                    "color": "#FFD13F"
+                },
+                {
+                    "name": "Rapprochement BAC/SAR par indices ",
+                    "size": 50,
+                    "team": "BLR - MR",
+                    "input": "",
+                    "output": "SBCM (4)",
+                    "color": "#FFD13F"
+                },
+                {
+                    "name": "SBCM : Rapprochement par métier",
+                    "size": 50,
+                    "team": "BLR - MR",
+                    "input": "Résultat Metro IAS (BAC-SAR) (Descente par indices) (16);Reclassements (16)",
+                    "output": "Tableau de synthèse Métropole (7)",
+                    "color": "#FFD13F"
+                },
+                {
+                    "name": "SBCM phase Mains courantes",
+                    "size": 50,
+                    "team": "BLR - MR",
+                    "input": "Main courante Métropole (17)",
+                    "output": "",
+                    "color": "#FFD13F",
+                    "children": [
+                        {
+                            "name": "Process de mains courantes",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "",
+                            "output": "EMC (17)",
+                            "color": "#C3D69B"
+                        }
+                    ]
+                },
+                {
+                    "name": "Constitution Tableau de synthèse Métropole V1",
+                    "size": 50,
+                    "team": "BLR - MR",
+                    "input": "SBCM (4);RAC FDG",
+                    "output": "Tableau de synthèse Métropole V1",
+                    "color": "#FFD13F",
+                    "children": [
+                        {
+                            "name": "Rapprochement BAC/SAR par indices ",
+                            "size": 50,
+                            "team": "BLR - MR",
+                            "input": "",
+                            "output": "SBCM (4)",
+                            "color": "#FFD13F"
+                        }
+                    ]
+                },
+                {
+                    "name": "Constitution Tableau de synthèse Métropole en mains courantes",
+                    "size": 50,
+                    "team": "BLR - MR",
+                    "input": "Main courante Métropole (17);RAC FDG",
+                    "output": "Tableau de synthèse Métropole;Chargement Perseus",
+                    "color": "#FFD13F",
+                    "children": [
+                        {
+                            "name": "Process de mains courantes",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "",
+                            "output": "EMC (17)",
+                            "color": "#C3D69B"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ventilation du PNB par axe métier",
+                    "size": 50,
+                    "team": "BLR - MR",
+                    "input": "Tableau de Synthèse Métropole (7);Synthèse Métropole IAS et French (18)",
+                    "output": "STE;Chargement Perseus",
+                    "color": "#FFD13F"
+                },
+                {
+                    "name": "Contribution au tableau de bord (Analyse du PNB et CR par métier)",
+                    "size": 50,
+                    "team": "BLR - MR",
+                    "input": "Tableau de Synthèse Métropole (7);Synthèse Métropole IAS et French (18)",
+                    "output": "Tableau de bord Métropole",
+                    "color": "#FFD13F"
+                },
+                {
+                    "name": "Consolidation des parties France Reporting du Tableau de Bord",
+                    "size": 50,
+                    "team": "BLR - MR",
+                    "input": "Slides FR",
+                    "output": "Tableau de bord Métropole",
+                    "color": "#FFD13F"
+                }
+            ],
+            "team": [
+                [
+                    "BLR - CMA",
+                    "BLR - MR"
+                ]
+            ]
+        },
+        {
+            "name": "Tableau de Bord",
+            "children": [
+                {
+                    "name": "Constituer la partie Frais de Gestion du Tableau de Bord (TB)",
+                    "size": 50,
+                    "team": "CTS - MC",
+                    "input": "",
+                    "output": "Tableau de bord",
+                    "color": "#95B3D7"
+                },
+                {
+                    "name": "Contribution au tableau de bord",
+                    "size": 50,
+                    "team": "CTS - TAX",
+                    "input": "",
+                    "output": "Tableau de bord",
+                    "color": "#1F497D"
+                }
+            ],
+            "team": [
+                [
+                    "CTS - MC",
+                    "CTS - TAX"
+                ]
+            ]
+        },
+        {
+            "name": "Effective Coverage",
+            "children": [
+                {
+                    "name": "Synthèse Effective Coverage",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "",
+                    "output": "?",
+                    "color": "#80C535"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CRED"
+                ]
+            ]
+        },
+        {
+            "name": "JV en annexe",
+            "children": [
+                {
+                    "name": "JV en annexe",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "Synthèse JV en annexe (12)",
+                    "output": "JV en annexe (12)",
+                    "color": "#C3D69B"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        },
+        {
+            "name": "Audit Trail",
+            "children": [
+                {
+                    "name": "Production des pistes d'audit métiers",
+                    "size": 50,
+                    "team": "RS - LIQUIDITY",
+                    "input": "Pistes d'audit (6)",
+                    "output": "Piste d'audit ALMT;Piste d'audit CIB; Piste d'audit BDDF",
+                    "color": "#00B050",
+                    "children": [
+                        {
+                            "name": "Piste d'Audit",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "L1i/L1iHB (15)",
+                            "output": "Piste d'Audit (6)",
+                            "color": "#C3D69B",
+                            "children": [
+                                {
+                                    "name": "Contrôle et mise à jour des tables OFS",
+                                    "size": 50,
+                                    "team": "RS - CONSO",
+                                    "input": "",
+                                    "output": "L1i/L1iHB (15)",
+                                    "color": "#C3D69B"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Production des pistes d'audit Lot1",
+                    "size": 50,
+                    "team": "RS - LIQUIDITY",
+                    "input": "Pistes d'audit (6)",
+                    "output": "Piste d'audit Lot1",
+                    "color": "#00B050",
+                    "children": [
+                        {
+                            "name": "Piste d'Audit",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "L1i/L1iHB (15)",
+                            "output": "Piste d'Audit (6)",
+                            "color": "#C3D69B",
+                            "children": [
+                                {
+                                    "name": "Contrôle et mise à jour des tables OFS",
+                                    "size": 50,
+                                    "team": "RS - CONSO",
+                                    "input": "",
+                                    "output": "L1i/L1iHB (15)",
+                                    "color": "#C3D69B"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Production des pistes d'audit des comptes de suspens",
+                    "size": 50,
+                    "team": "RS - LIQUIDITY",
+                    "input": "Pistes d'audit (6)",
+                    "output": "Piste d'audit Comptes de Suspens",
+                    "color": "#00B050",
+                    "children": [
+                        {
+                            "name": "Piste d'Audit",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "L1i/L1iHB (15)",
+                            "output": "Piste d'Audit (6)",
+                            "color": "#C3D69B",
+                            "children": [
+                                {
+                                    "name": "Contrôle et mise à jour des tables OFS",
+                                    "size": 50,
+                                    "team": "RS - CONSO",
+                                    "input": "",
+                                    "output": "L1i/L1iHB (15)",
+                                    "color": "#C3D69B"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "team": [
+                [
+                    "RS - LIQUIDITY"
+                ]
+            ]
+        },
+        {
+            "name": "Transfert d'actif",
+            "children": [
+                {
+                    "name": "Transfert d'actifs",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "L1iHB (15)",
+                    "output": "",
+                    "color": "#C3D69B",
+                    "children": [
+                        {
+                            "name": "Contrôle et mise à jour des tables OFS",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "",
+                            "output": "L1i/L1iHB (15)",
+                            "color": "#C3D69B"
+                        }
+                    ]
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        },
+        {
+            "name": "Revue Analytiques",
+            "children": [
+                {
+                    "name": "Revue analytique de l'assiette",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "",
+                    "output": "Contribution tableau de synthèse prudentiel Métro",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "Revue analytique des RWA",
+                    "size": 50,
+                    "team": "RS - CRED",
+                    "input": "Résultats des traitements du run BMRC",
+                    "output": "Contribution tableau de synthèse prudentiel Métro",
+                    "color": "#80C535"
+                },
+                {
+                    "name": "Production des revues analytiques contributives métiers",
+                    "size": 50,
+                    "team": "RS - LIQUIDITY",
+                    "input": "RA (13)",
+                    "output": "Revues analytiques OoG",
+                    "color": "#00B050",
+                    "children": [
+                        {
+                            "name": "Disclosure Couverture",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "Piste d'audit",
+                            "output": "Disclosure Couverture (13)",
+                            "color": "#C3D69B"
+                        }
+                    ]
+                },
+                {
+                    "name": "Production des revues analytiques IG métiers",
+                    "size": 50,
+                    "team": "RS - LIQUIDITY",
+                    "input": "RA (13)",
+                    "output": "Revues analytiques IG",
+                    "color": "#00B050",
+                    "children": [
+                        {
+                            "name": "Disclosure Couverture",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "Piste d'audit",
+                            "output": "Disclosure Couverture (13)",
+                            "color": "#C3D69B"
+                        }
+                    ]
+                }
+            ],
+            "team": [
+                [
+                    "RS - CRED",
+                    "RS - LIQUIDITY"
+                ]
+            ]
+        },
+        {
+            "name": "Piste d'Audit",
+            "children": [
+                {
+                    "name": "Piste d'Audit",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "L1i/L1iHB (15)",
+                    "output": "Piste d'Audit (6)",
+                    "color": "#C3D69B",
+                    "children": [
+                        {
+                            "name": "Contrôle et mise à jour des tables OFS",
+                            "size": 50,
+                            "team": "RS - CONSO",
+                            "input": "",
+                            "output": "L1i/L1iHB (15)",
+                            "color": "#C3D69B"
+                        }
+                    ]
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        },
+        {
+            "name": "MC",
+            "children": [
+                {
+                    "name": "Process de mains courantes",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "",
+                    "output": "EMC (17)",
+                    "color": "#C3D69B"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        },
+        {
+            "name": "Passage French to IFRS",
+            "children": [
+                {
+                    "name": "Rapprochement IFRS-French",
+                    "size": 50,
+                    "team": "RS - CONSO",
+                    "input": "",
+                    "output": "Synthèse Métropole IAS et French (18)",
+                    "color": "#C3D69B"
+                }
+            ],
+            "team": [
+                [
+                    "RS - CONSO"
+                ]
+            ]
+        }
+    ]
+}
