@@ -2,8 +2,17 @@
     'use strict';
 
     const format = d3.format(",d");
-    const width = 1200;
+    const width = 932;
     const radius = width / 6;
+
+
+//const svg = d3.create("svg")
+//.attr("viewBox", [0, 0, width, width])
+//.style("font", "10px sans-serif");
+
+    //console.log(parseInt(leftcolumno.style("width")));
+
+   // const radius =  margin.left - margin.right,
 
     const arc = d3.arc()
             .startAngle(d => d.x0)
@@ -39,11 +48,13 @@
 
         const svg = d3.select('#partitionSVG')
                 .style("width", "100%")
+                //.attr("viewBox", [0, 0, 0, 0])
+               // .style("width", "100%")
                 .style("height", "auto")
                 .style("font", "10px sans-serif");
 
         const g = svg.append("g")
-                .attr("transform", `translate(${width/1.8},${width/2})`)
+                .attr("transform", `translate(${width/1.5},${width/2})`)
                 .on("mouseleave",mouseleave)
                 .on("keypress", function() {
                     if(d3.event.keyCode === 32 || d3.event.keyCode === 13){
@@ -174,7 +185,7 @@
             search();
        // console.log("Congrats, you pressed enter or space!")
         }});    
-      d3.select("button").on("click", search)
+      d3.select("#but").on("click", search)
       
       
     var arr=array();
@@ -323,11 +334,11 @@ function mouseover(d){
     function generateInfo(d){
        
         if (d.parent.data.name!="SUBPROCESS" ){
-            var info = '<b> Task: </b> '+ d.data.name + ' <br /><b>Team : </b> '+ d.data.team + '  <br /><b>Output :</b>'+ d.data.output + '<br /> </b><b> Sub-Process :</b> '+ d.parent.data.name  ;
+               var info = '<b> Task: </b> '+ d.data.name +'<br><br><b>Team : </b> '+ d.data.team + '  <br><br><b>Output :</b>'+ d.data.output + '<br><br><b> Sub-Process :</b> '+ d.parent.data.name  ;
         }
 
         else{
-            var info = '<b> Sub-Process : </b> '+ d.data.name + ' <br /><b> Team : </b> '+ d.data.team;
+            var info = '<b>Sub-Process :</b> '+ d.data.name + ' <br><br><b> Team : </b> '+ d.data.team;
         }
    
    // console.log(this);
@@ -355,7 +366,7 @@ function mouseover(d){
         }
       }
 
-    //document.onmousemove=move;
+    //  document.onmousemove=move;
 
 
 
