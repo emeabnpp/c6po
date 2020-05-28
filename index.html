@@ -1,63 +1,90 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="KADJO MAMI">
-    <title>Infobulle </title>    
-    <!-- Bootstrap core CSS -->
-<!--   <link href="bootstrap-4.0.0-dist\css\bootstrap.min.css" rel="stylesheet" >-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="index 4 css.css"/>
-   <!--  <link rel="stylesheet" href="styles.css"> -->
-    <link rel="stylesheet" href="autocompletestyle.css">
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@observablehq/stdlib"></script></head>
-<body>
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="KADJO MAMI">
+      <title>Infobulle </title>    
+      <!-- Bootstrap core CSS -->
+    <link href="bootstrap-4.0.0-dist\css\bootstrap.min.css" rel="stylesheet" > 
+      <link rel="stylesheet" type="text/css" href="index 4 css.css"/>
+    <!--  <link rel="stylesheet" href="styles.css"> -->
+      <link rel="stylesheet" href="autocompletestyle.css">
+      <script src="https://d3js.org/d3.v5.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@observablehq/stdlib"></script>
+      <script src="bundle.js"></script>
+      <script language="javascript" type="text/javascript"  src="hover.js"></script>
+    </head>
 
+  <body>
 
-<div class="topnavo"></div>
-<div class="rowo">
-  <div class="leftcolumno">
-    <div class="cardo">     
-            
-            <svg id="partitionSVG" width="932" height="932" ></svg>
-            <!--<svg id="partitionSVG" width="932" height="932" viewBox="-150  0 932 932" ></svg> -->
-            
-            <script src="bundle.js"></script>
-            <script language="javascript" type="text/javascript"  src="hover.js"></script>
-      </div>
-      <p><h5>v0.5 Dec 7, 2017</h5></p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
- 
-  
-    <div class="cardo">
-      <h2>LEGENDES</h2>
-      <h5>Description</h5>
-      <p>
-
-        <form action="javascript:void(0);">
-            <div class="autocomplete" style="width:350px;">
-          <input id="searchid"  type="text" placeholder="Search" aria-label="Search">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <!--  <a class="nav-link" href="#" style="color:#00915A; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; font-size: 1.2em;"> Digital LAB<span class="sr-only">(current)</span></a>
+            --></li>           
+               
+          </ul>
+          <!--  <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>     -->
         </div>
-          <button id="but" type="button">Search</button>
-        </form>
+        <form action="javascript:void(0);">
+                <div class="autocomplete" style="width:350px;">
+              <input id="searchid"  type="text" placeholder="Search" aria-label="Search">
+            </div>
+              <button id="but" type="button">Search</button>
+            </form>
+  
+       
+      </nav>
 
-      </p>
 
-      <div id="key_line" class="card bg-light mb-3" style="width: auto;"></div>
+ 
+  <div class="row">
+    <div class="leftcolumno">
+      <div class="cardo">                   
+              <svg id="partitionSVG" viewBox="0 0 1300 1300" ></svg>
+              <!--<svg id="partitionSVG" width="932" height="932" viewBox="-150  0 932 932" ></svg> -->              
+             
+        </div></div> 
+       
+  
+    <div class="rightcolumno">
+            <div class="cardo">    
 
-     
+            <div id="key_line" class="card bg-light mb-3" style="width: auto;"></div>
+            
+                  
+                  </div>
     </div>
-</div>
-  <div class="rightcolumno"></div>
-</div>
+  </div>
+<!--
+  <footer class="footer" style="background-color:#00915A;">
+    <div class="container" style="background-color:#00915A;">
+      <span class="text-muted" style="color:#00915A" padding="50">FINANCE 2020.</span>
+    </div>
+  </footer>-->
 
-<div class="footero">
-  <h2>Footer</h2>
-</div>
+<!-- Footer -->
+<footer class="footer" style="background-color:rgb(26, 138, 95);">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="color:rgb(255, 255, 255)">© 2020 Copyright 
+      <a href= "https://weshare.group.echonet/sites/frsp/SitePages/index.aspx" style="color:rgb(255, 255, 255)"> FINANCE</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  
 
-</body>
-</html>
+
+  </body>
+  </html>
